@@ -1,87 +1,46 @@
-CianOS V2
-Life RPG Operating System for Language Learners and Self-Improvement
-Transform your real life into an RPG adventure.
-Vision
-CianOS is a mobile-first Life RPG platform that combines:
-Language Learning
-Habit Building
-Productivity
-AI-Powered Quest Systems
-Character Progression
-Gamification
-Instead of managing tasks, users develop a character.
-Real-life actions become game mechanics.
-Examples:
-Real Life
-RPG System
-Tasks
-Quests
-Goals
-Boss Battles
-Progress
-XP
-Habits
-Daily Missions
-Learning
-Skill Training
-Achievements
-Rewards
-Current Version
-Version: V2
-Status: MVP Prototype
-Current Features:
-Character Dashboard
-XP System
-Rank Progression
-Skill Statistics
-Daily Tracking
-Vocabulary Section
-Quest Interface
-Inventory System
-Mobile-First UI
-Long-Term Roadmap
-V3
-Dynamic Quest Engine
-Smart Goal Generation
-Advanced Character Progression
-Interactive Skill Tree
-Better Mobile Experience
-Local Data Persistence
-V4
-AI Mentor System
-Adaptive Learning Paths
-Vocabulary Dungeon System
-Achievement Expansion
-Advanced Analytics
-V5
-Full Life RPG Ecosystem
-AI-Powered Personalization
-Community Features
-Guild System
-Competitive Challenges
-Core Philosophy
-CianOS is not a traditional productivity application.
-The goal is to transform personal growth into an immersive RPG experience.
-Users are not completing tasks.
-Users are leveling up their real-life character.
-Technology Stack
-HTML5
-CSS3
-JavaScript
-Mobile-First Design
-Progressive Enhancement
-Future Technologies:
-IndexedDB
-PWA
-AI Integrations
-Cloud Sync
-Project Ownership
-Created and Designed by Cian.
-Original Concept: Life RPG Operating System focused on language learning, self-improvement, and AI-assisted progression.
-All future versions and improvements are part of the CianOS ecosystem roadmap.
-Project Status
-Active Development
-This project is continuously evolving and serves as the foundation for future CianOS releases.
-License
-Copyright © 2026 Cian
-All Rights Reserved.
+# CianOS / LifeOS — Self-Improvement RPG
+
+> **Status: browser-based MVP/prototype — not a verified cloud platform.**
+
+[Live demo](https://cianium.github.io/Self-Improvement/) · [Repository](https://github.com/cianium/Self-Improvement)
+
+CianOS explores a game-inspired approach to personal development: personal goals become quests, practice earns experience points, and habits and language-learning activities are represented as progression systems.
+
+## Current source
+
+The repository contains a static HTML/CSS/JavaScript interface and separate state, routing and feature modules. It explores:
+
+- Character dashboard, skills and rank/XP progression
+- Daily missions and quest UI
+- Inventory and rewards concepts
+- Learning/vocabulary sections and personal progress views
+
+**Note:** available features are prototype UI/logic; the presence of a screen is not evidence of secure account sync, production AI or verified learning outcomes.
+
+## Run
+
+```bash
+git clone https://github.com/cianium/Self-Improvement.git
+cd Self-Improvement
+python3 -m http.server 8080
+```
+
+Open `http://localhost:8080`. Use a local server rather than assuming every ES-module feature works from `file://`.
+
+## Repository map
+
+- `index.html` — application shell
+- `css/` — layout and theme
+- `js/app.js`, `js/router.js`, `js/state.js` — app bootstrap, navigation and state
+- `js/modules/` — features
+- [Roadmap](ROADMAP.md) · [Changelog](CHANGELOG.md) · [Contributing](CONTRIBUTING.md)
+
+## Versioning and next steps
+
+GitHub Releases include `v1.3`; older documentation used `CianOS V2` and code comments refer to V3. Align marketing labels with actual release tags before advertising a numbered product release.
+
+Next priorities: explicit persistence contract, test coverage, accessibility checks, user export/delete flows and measurable acceptance criteria for any future AI features.
+
+## License
+
+See [LICENSE](LICENSE) for current repository terms. Do not assume third-party assets are covered by that license.
