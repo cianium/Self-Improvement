@@ -77,11 +77,11 @@ LICENSE                All-rights-reserved terms
 
 Three different version references currently appear in the repository:
 
-- **GitHub Releases:** the latest published tag found is `v1.3`.
-- **Changelog:** documents a historical `2.0.0` / CianOS V2 milestone.
-- **Current source comments and HTML title:** refer to **CianOS Ultra V3**.
+- **GitHub Releases:** `v1.3` is the latest published tag, but **`v1.0`, `v1.2` and `v1.3` point to exactly the same source commit** (`5ef0b265`).
+- **Changelog:** the historical `2.0.0` / CianOS V2 milestone is not a corresponding published release tag.
+- **Current source comments and HTML title:** refer to **CianOS Ultra V3**, which is not proof of a `v3.0.0` release.
 
-These labels have **not been reconciled into one verified release sequence**. A source comment does not constitute a published `v3.0.0` release. This README intentionally uses the **CianOS** product name without claiming a validated current release version.
+**Version audit:** these three historical GitHub releases do not represent independently verifiable source-code revisions. For actual tag targets, publication dates, existing ZIP-link caveats, and proposed release descriptions, read **[RELEASES.md](RELEASES.md)**.
 
 ## Roadmap
 
